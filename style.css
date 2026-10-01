@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+
+    width: 60%;
+    height: 70px;
+    position: relative;
+    left: 50px;
+}
+
+li{
+    list-style-type: none;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3 ease;
+}
+
+a:hover{
+
+    color: #7a9C46;
+}
+
+
+.leaf{
+
+    position: absolute;
+    right: -15px;
+    bottom: 40px;
+    width: 500px;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.order-md-1, .col-md-5{
+
+    position: relative;
+    z-index: 1;
+}
